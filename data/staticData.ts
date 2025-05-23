@@ -36,6 +36,7 @@ export interface StaticUserFeedback {
   comment: string
   rating: 1 | 2 | 3 | 4 | 5
 }
+// COmment here
 export interface StaticUserAddress {
   fullName: string
   mobileNum: number
