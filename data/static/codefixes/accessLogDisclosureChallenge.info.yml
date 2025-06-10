@@ -12,3 +12,6 @@ hints:
   - "Did you spot the directory listing clearly linked to log files?"
   - "Did you notice that there is a seperate route for retrieving individual log files?"
   - "Make sure to select both lines responsible for the log file data leakage."
+
+
+ssds
