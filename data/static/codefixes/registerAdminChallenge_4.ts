@@ -25,6 +25,8 @@
       pagination: false
     })
 
+    // Some code here!
+    // Some more code here!
     // create a wallet when a new user is registered using API
     if (name === 'User') {
       resource.create.send.before((req: Request, res: Response, context: { instance: { id: any }, continue: any }) => {
