@@ -1,0 +1,15 @@
+-
+  name: 'API-only XSS'
+  category: 'XSS'
+  tags:
+    - Danger Zone
+  description: 'Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src="javascript:alert(`xss`)"&gt;</code> without using the frontend application at all.'
+  difficulty: 3
+  hint: 'You need to work with the server-side API directly. Try different HTTP verbs on different entities exposed through the API.'
+  hintUrl: 'https://pwning.owasp-juice.shop/companion-guide/latest/part2/xss.html#_perform_a_persisted_xss_attack_without_using_the_frontend_application_at_all'
+  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html......'
+  key: restfulXssChallenge
+  disabledEnv:
+    - Docker
+    - Heroku
+    - Gitpod
